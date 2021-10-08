@@ -6,12 +6,10 @@ import {
   Route,
   Link
 } from 'react-router-dom';
-import Transfers from './routes/Transfers';
 
 function App() {
   return (
     <div className="App">
-      <Transfers />
       <Router>
         <Link to="/cadastro">Cadastro</Link>
         <Switch>

@@ -1,0 +1,11 @@
+.dark-button {
+  background-color: #363339;
+  border: none;
+  color: #FFFFFF;
+}
+
+.success-button {
+  background: linear-gradient(180deg, #FCFFDF 0%, #F1FE87 100%);
+  border: none;
+  color: #272A32;
+}
