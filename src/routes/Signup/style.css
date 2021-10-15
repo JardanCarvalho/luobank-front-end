@@ -1,0 +1,30 @@
+.signup-container {
+  text-align: center;
+}
+
+.signup-container div > .logo-img {
+  width: 74px;
+  height: 21px;
+  margin: 11px 0 44px 0;
+}
+
+.signup-title {
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.signup-form {
+  margin: 37px 0 42px 0;
+}
+
+.signup-form input {
+  margin-bottom: 17px;
+}
+
+.signup-form input:last-child {
+  margin-bottom: 0;
+}
+
+.signup-button {
+  font-weight: 100;
+}

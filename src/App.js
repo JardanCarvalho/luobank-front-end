@@ -4,16 +4,12 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from 'react-router-dom';
-import Transfers from './routes/Transfers';
 
 function App() {
   return (
-    <div className="App">
-      <Transfers />
+    <div className="app-container">
       <Router>
-        <Link to="/cadastro">Cadastro</Link>
         <Switch>
           <Route path="/cadastro">
             <Signup />

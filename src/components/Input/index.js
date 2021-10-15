@@ -1,8 +1,7 @@
 import React from 'react';
 import './style.css';
 
-const Input = (props) => {
-	const { type, placeholder } = props;
+const Input = ({ type, placeholder }) => {
 	return (
 		<input
 			type={type}
