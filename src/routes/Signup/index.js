@@ -2,33 +2,35 @@ import React from 'react';
 import Input from '../../components/Input';
 import { Link } from 'react-router-dom';
 import Title from '../../components/Title';
-import './style.css'
+import './style.css';
 import Logo from '../../components/Logo';
 import Button from '../../components/Button';
 
-const Signup = ({className,classNameType}) => {
+const Signup = () => {
   return (
-    <div className='container'>
-      <Logo />
-      <Title className='create-account'>{'Crie sua conta'}</Title>
-      <Input
-        placeholder="Nome"
-        type="text"
-      />
-      <Input
-        placeholder="CPF"
-        type="text"
-      />
-      <Input
-        placeholder="Senha"
-        type="password"
-      />
-      <Input
-        placeholder="Repetir Senha"
-        type="password"
-      />
+    <div className="signup-container">
+      <Logo className="signup-logo"/>
+      <Title className="signup-title">Crie sua conta</Title>
+      <div className="signup-form">
+        <Input
+          placeholder="Nome"
+          type="text"
+        />
+        <Input
+          placeholder="CPF"
+          type="number"
+        />
+        <Input
+          placeholder="Senha"
+          type="password"
+        />
+        <Input
+          placeholder="Repetir Senha"
+          type="password"
+        />
+      </div>
       <Link to="/">
-        <Button type="success">Finalizar Cadastro</Button>
+        <Button className="signup-button" type="success">Finalizar Cadastro</Button>
       </Link>
     </div>
   )

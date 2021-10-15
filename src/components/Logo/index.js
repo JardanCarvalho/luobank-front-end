@@ -2,10 +2,10 @@ import React from "react";
 import './style.css';
 import logo from '../../images/logo.svg';
 
-const Logo = ({src}) => {
+const Logo = () => {
   return (
     <div>
-      <img src={logo} alt='loubank' />
+      <img className="logo-img" src={logo} alt="loubank" />
     </div>
   );
 }

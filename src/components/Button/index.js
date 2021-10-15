@@ -2,12 +2,13 @@ import React from 'react';
 import './style.css';
 
 const classNameType = {
-  dark: "dark-button",
-  success: "success-button"
+  dark: 'dark-button',
+  success: 'success-button'
 }
-const Button = (props) => {
+
+const Button = ({ type, children }) => {
   return (
-    <button className={classNameType[props.type]}>{props.children}</button>
+    <button className={classNameType[type]}>{children}</button>
   )
 }
 
