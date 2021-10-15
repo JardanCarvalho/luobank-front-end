@@ -1,10 +1,16 @@
 import React from 'react';
 import Input from '../../components/Input';
 import { Link } from 'react-router-dom';
+import Title from '../../components/Title';
+import './style.css'
+import Logo from '../../components/Logo';
+import Button from '../../components/Button';
 
-const Signup = () => {
+const Signup = ({className,classNameType}) => {
   return (
-    <div>
+    <div className='container'>
+      <Logo />
+      <Title className='create-account'>{'Crie sua conta'}</Title>
       <Input
         placeholder="Nome"
         type="text"
@@ -15,14 +21,14 @@ const Signup = () => {
       />
       <Input
         placeholder="Senha"
-        type="text"
+        type="password"
       />
       <Input
         placeholder="Repetir Senha"
-        type="text"
+        type="password"
       />
       <Link to="/">
-        Fazer login
+        <Button type="success">Finalizar Cadastro</Button>
       </Link>
     </div>
   )

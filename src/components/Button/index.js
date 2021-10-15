@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css'
+import './style.css';
 
 const classNameType = {
   dark: "dark-button",
@@ -7,8 +7,7 @@ const classNameType = {
 }
 const Button = (props) => {
   return (
-    <button className={classNameType[props.type]}>
-    </button>
+    <button className={classNameType[props.type]}>{props.children}</button>
   )
 }
 

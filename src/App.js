@@ -11,7 +11,6 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Link to="/cadastro">Cadastro</Link>
         <Switch>
           <Route path="/cadastro">
             <Signup />
