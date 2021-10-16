@@ -12,7 +12,7 @@ export default {
 export const Default = (args) => <SmallCreditCard {...args} />;
 
 Default.args = {
-  brand: "visa",
+  brand: 'visa',
   limitValue: 5000,
   cardNumber: 6969
 }

@@ -22,16 +22,16 @@
 .small-creditcard-limit > span:last-child {
   font-weight: 700;
   font-size: 14px;
-
 }
-.brand-visa{
+
+.brand-visa {
   background: linear-gradient(180deg, #FCFFDF 0%, #F1FE87 100%);
 }
 
-.brand-mastercard{
+.brand-mastercard {
   background: linear-gradient(180deg, #F2EFF4 0%, #B8A9C6 100%);
 }
 
-.brand-americanexpress{
+.brand-americanexpress {
   background: linear-gradient(180deg, #EAEAEA 0%, #B2D0CE 100%);
 }

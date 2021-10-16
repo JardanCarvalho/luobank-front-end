@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import { SiMastercard, SiVisa, SiAmericanexpress } from "react-icons/si";
+import { SiMastercard, SiVisa, SiAmericanexpress } from 'react-icons/si';
 
 const cardBrands = {
   visa: <SiVisa />,
