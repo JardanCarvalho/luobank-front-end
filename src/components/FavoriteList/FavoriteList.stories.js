@@ -1,5 +1,4 @@
 import React from 'react';
-import {object} from '@storybook/addon-controls';
 import FavoriteList from '.';
 
 export default {

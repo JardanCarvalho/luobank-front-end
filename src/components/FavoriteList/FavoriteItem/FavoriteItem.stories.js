@@ -1,5 +1,4 @@
 import React from 'react';
-
 import FavoriteItem from '.';
 
 export default {
