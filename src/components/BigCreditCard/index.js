@@ -1,25 +1,34 @@
 import React from 'react';
 import './style.css';
 import { SiMastercard, SiVisa, SiAmericanexpress } from 'react-icons/si';
+import chip from '../../images/chip2.png';
 
 const cardBrands = {
-  visa : <SiVisa/>,
-  mastercard : <SiMastercard/>,
-  americanexpress: <SiAmericanexpress/>,
+  visa: <SiVisa />,
+  mastercard: <SiMastercard />,
+  americanexpress: <SiAmericanexpress />,
 }
 
-export default ({brand,value,cardNumber,dueDate,clientName}) => {
+export default ({ brand, value, cardNumber, dueDate, clientName }) => {
   return (
     <div className={`big-creditcard-container brand-${brand}`}>
-      <span>{cardBrands[brand]}</span>
-      <span>R$ {value}</span>
+      <div className="big-creditcard-top">
+        <span className="big-creditcard-brand">{cardBrands[brand]}</span>
+        <span className="big-creditcard-value">R$ 5.566,55</span>
+      </div>
+      <div className="big-creditcard-center">
         <div>
-          <span>**** **** **** 4552</span>
-          <span>
-            <p>VALIDO ATÉ</p>
-            <p>12/22</p>
-          </span>
+          <img src={chip} alt="" />
+          <span className="big-creditcard-card-number">•••• •••• •••• 4552</span>
         </div>
+        <div className="big-creditcard-due-date-title">
+          <span>VÁLIDO ATÉ</span>
+          <span className="big-creditcard-due-date">12/22</span>
+        </div>
+      </div>
+      <span className="big-creditcard-bottom">
+        JULIO CESAR
+      </span>
     </div>
   );
 }
