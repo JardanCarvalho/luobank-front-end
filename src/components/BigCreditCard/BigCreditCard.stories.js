@@ -13,5 +13,7 @@ export const Default = (args) => <BigCreditCard {...args} />;
 Default.args = {
   brand: 'visa',
   value: 5000,
-  cardNumber: 6969
+  cardNumber: 4552,
+  dueDate: '12/22',
+  clientName: 'JULIO CESAR',
 }
