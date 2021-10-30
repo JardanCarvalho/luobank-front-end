@@ -1,0 +1,14 @@
+.favorite-content {
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 400px;
+  white-space: nowrap;
+  margin: 50px 50px 50px 50px;  
+}
+
+.favorite-wrapper {
+  background: #252626;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 16px 30px 16px;  
+}
