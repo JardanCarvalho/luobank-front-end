@@ -1,0 +1,14 @@
+.cardview-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.cardview-date {
+  margin-bottom: 20px;
+}
+
+.cardview-date-span {
+  display: block;
+  margin-bottom: 18px;
+}
