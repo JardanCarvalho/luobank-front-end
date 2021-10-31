@@ -1,0 +1,36 @@
+.transactions-tag-container {
+  height: 44px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 500px;
+  color: #FFFFFF;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.transactions-name-and-type {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  margin-right: 16px;
+}
+
+.trasactions-type {
+  font-size: 14px;
+  color: #79767D;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.transactions-arrow {
+  margin-right: 16px;
+  display: flex;
+}
+
+.transactions-value {
+  margin-left: auto;
+  align-self: flex-start;
+}
