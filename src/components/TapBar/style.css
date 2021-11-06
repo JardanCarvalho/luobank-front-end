@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.tapbar-container {
+  display: flex;
+  justify-content: space-around;
+  background: #1E1E1E;
+  width: 376px;/*Switch to 100% before push*/
+  height: 82px;
+  padding: 28px 36px 40px 36px;
+  border-radius: 20px 20px 0 0;
+  font-size: 20px;
+  fill: #ffffff;
+}
+
+.tapbar-icon {
+  color: #ffffff;
+}
