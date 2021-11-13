@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './style.css';
 import {
   RiHomeLine,
@@ -7,31 +7,38 @@ import {
   RiChat3Line,
   RiTimeLine
 } from "react-icons/ri";
-import { 
-  SiMastercard,
-  SiVisa,
-  SiAmericanexpress
- } from 'react-icons/si';
+import { NavLink } from 'react-router-dom';
 
 
 export default () => {
+
+  const [classe, setClass ] = useState('tapbar-container');
+  let initScrollPos = window.pageYOffset;
+  
+  window.onscroll = function () {
+    let scrollPosition = window.pageYOffset;
+
+    initScrollPos > scrollPosition ? setClass('tapbar-container') : setClass("tapbar-container--hidden");
+
+    initScrollPos = scrollPosition;
+}
   return (
-    <div className="tapbar-container">
-      <a href="">
+    <div className={ classe }>
+      <NavLink exact to="/home" activeClassName="selected">
         <RiHomeLine className="tapbar-icon" />
-      </a>
-      <a href="">
+      </NavLink>
+      <NavLink exact to="/shopping" activeClassName="selected">
         <RiShoppingBagLine className="tapbar-icon" />
-      </a>
-      <a href="">
+      </NavLink>
+      <NavLink exact to="/cardview" activeClassName="selected">
         <RiBankCardLine className="tapbar-icon" />
-      </a>
-      <a href="">
+      </NavLink>
+      <NavLink exact to="/checkingaccount" activeClassName="selected">
         <RiChat3Line className="tapbar-icon" />
-      </a>
-      <a href="">
+      </NavLink>
+      <NavLink exact to="/transfers" activeClassName="selected">
         <RiTimeLine className="tapbar-icon" />
-      </a>
+      </NavLink>
     </div>
-  );  
+  );
 }
