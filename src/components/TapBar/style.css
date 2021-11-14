@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: ease 0.3s;
+}
+
+.tapbar-container {
+  display: flex;
+  justify-content: space-between;
+  background: #1E1E1E;
+  width: 100%;
+  height: 82px;
+  padding: 28px 36px 40px 36px;
+  border-radius: 20px 20px 0 0;
+  font-size: 20px;
+  fill: #ffffff;
+  position: fixed;
+  bottom: 0px;
+}
+
+.tapbar-icon {
+  color: #ffffff;
+}
+
+.selected > svg {
+  color: #F2FE8D;
+}
+
+.tapbar-container--hidden {
+  display: flex;
+  justify-content: space-between;
+  background: #1E1E1E;
+  width: 100%;
+  height: 82px;
+  padding: 28px 36px 40px 36px;
+  border-radius: 20px 20px 0 0;
+  font-size: 20px;
+  fill: #ffffff;
+  position: fixed;
+  bottom: -82px;
+}
