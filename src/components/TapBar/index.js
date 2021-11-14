@@ -6,24 +6,24 @@ import {
   RiBankCardLine,
   RiChat3Line,
   RiTimeLine
-} from "react-icons/ri";
+} from 'react-icons/ri';
 import { NavLink } from 'react-router-dom';
 
 
 export default () => {
 
-  const [classe, setClass ] = useState('tapbar-container');
+  const [classe, setClass] = useState('tapbar-container');
   let initScrollPos = window.pageYOffset;
-  
+
   window.onscroll = function () {
     let scrollPosition = window.pageYOffset;
 
     initScrollPos > scrollPosition ? setClass('tapbar-container') : setClass("tapbar-container--hidden");
 
     initScrollPos = scrollPosition;
-}
+  }
   return (
-    <div className={ classe }>
+    <div className={classe}>
       <NavLink exact to="/home" activeClassName="selected">
         <RiHomeLine className="tapbar-icon" />
       </NavLink>
