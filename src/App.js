@@ -5,6 +5,7 @@ import {
   Switch,
   Route,
 } from 'react-router-dom';
+import LogIn from './routes/LogIn';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Router>
         <Switch>
           <Route path="/cadastro">
-            <Signup />
+            <LogIn />
           </Route>
         </Switch>
       </Router>
