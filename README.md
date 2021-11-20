@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# LouBank App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About LouBank
 
-## Available Scripts
+The application must contain the main financial resources for the customer. We will offer features such as bank transfer, checking account balance, transaction history.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## About the FutureTech project
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+FutureTech is a project created by devs Joalisson Andrade and Rosi Souza, experienced and active in the areas of software development. Its aim is to simulate the experience of working in the job market in a pragmatic way and getting as close as possible to the routines and challenges that a dev has during the beginning of their career. The idea is to bring project participants some real scenarios for planning, programming, teamwork and personal development, monitoring and mentoring. 
 
-### `npm test`
+## Commands guide
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### General commands
 
-### `npm run build`
+`npm start` - runs the project on localhost
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`npm run storybook` - starts the storybook
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Git commands
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+`git checkout .` - Ignore current uncommited changes
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`git pull origin main` - pull the last version on remote repository
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+`npm install` - every after git pull
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+`git checkout -b "(branch name)"`  - create new branch
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+`git push origin (branch name)` - push the branch to the remote and gives way to start a pull request
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
