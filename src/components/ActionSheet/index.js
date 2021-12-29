@@ -1,11 +1,11 @@
 import React from 'react';
 import './style.css';
 
-const ActionSheet = ({ children }) => {
+const ActionSheet = ({ children, title }) => {
   return (
     <div className="actionsheet-container">
       <div className="actionsheet-title">
-        <span>Transações</span>
+        <span>{title}</span>
       </div>
       {children}
     </div>

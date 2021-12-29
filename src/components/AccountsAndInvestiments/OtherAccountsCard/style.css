@@ -1,0 +1,37 @@
+.other-accounts-card-container {
+  width: 100%;
+  height: 76px;
+  background: #232324;
+  color: #FFFFFF;
+  border-radius: 26px;
+  display: flex;
+  align-items: center;
+  padding: 30px 20px;
+  margin-bottom: 3px ;
+}
+
+.other-accounts-card-icon-n-number {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.other-accounts-card-icon {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(178, 208, 206);
+  border-radius: 12px;
+}
+
+.other-accounts-card-icon-n-number div:first-child{
+  margin-right: 12px;
+}
+
+.other-accounts-card-value {
+  margin-left: auto;
+  white-space: nowrap;
+}
