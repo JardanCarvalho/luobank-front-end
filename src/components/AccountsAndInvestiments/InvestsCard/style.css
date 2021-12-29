@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.investcard-container {
+  width: 100%;
+  background: #232324;
+  color: #FFFFFF;
+  border-radius: 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.investcard-head {
+  display: flex;
+  width: 100%;
+  color: #79767D;
+  margin-bottom: 12px;
+}
+
+.investcard-right {
+  flex-grow: 1;
+  text-align: right;
+  width: 100px;
+}
+
+.investcard-left {
+  flex-grow: 3;
+  text-align: left;
+  width: 100px;
+}
+
+.investcard-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.investcard-active-code {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  width: 100px;
+}
+
+.investcard-active-code svg {
+  margin-right: 10px;
+}
